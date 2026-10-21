@@ -1,0 +1,15 @@
+{
+  "name": "carecue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Alexa Caretaker — Alexa+ medicine reminders for family caretaking (Amazon Developer Hackathon)",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:server": "npm run start --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
